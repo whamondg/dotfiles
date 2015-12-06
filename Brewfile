@@ -8,7 +8,7 @@ brew 'caskroom/cask/brew-cask'
 brew 'tree'
 
 #brew 'ack'
-#brew 'coreutils'
+brew 'coreutils'
 #brew 'go'
 #brew 'grc'
 #brew 'imagemagick'
