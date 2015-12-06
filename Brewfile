@@ -16,7 +16,7 @@ brew 'coreutils'
 #brew 'libcaca', args: ['with-imlib2']
 #brew 'libgit2'
 #brew 'openssl'
-#brew 'node'
+brew 'node'
 #brew 'readline'
 #brew 'postgresql'
 brew 'ruby-build'
