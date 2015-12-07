@@ -7,23 +7,19 @@ brew 'caskroom/cask/brew-cask'
 
 brew 'tree'
 
-#brew 'ack'
 brew 'coreutils'
 #brew 'go'
-#brew 'grc'
-#brew 'imagemagick'
-#brew 'jp2a'
-#brew 'libcaca', args: ['with-imlib2']
-#brew 'libgit2'
-#brew 'openssl'
 brew 'node'
-#brew 'readline'
-#brew 'postgresql'
 brew 'ruby-build'
 brew 'rbenv'
-#brew 'roundup'
-#brew 'spark'
-#brew 'unrar'
+
+
+#The following might be useful at some point
+#brew 'imagemagick'
+#brew 'grc'
+#brew 'postgresql'
+#brew 'jp2a'
+#brew 'ack'
 #brew 'youtube-dl'
 
 #cask '1password'
