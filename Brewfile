@@ -16,7 +16,7 @@ cask 'evernote'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'java'
-cask slack
+cask 'slack'
 
 
 
