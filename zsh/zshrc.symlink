@@ -39,3 +39,7 @@ do
 done
 
 unset config_files
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/whamondg/.sdkman"
+[[ -s "/Users/whamondg/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/whamondg/.sdkman/bin/sdkman-init.sh"
