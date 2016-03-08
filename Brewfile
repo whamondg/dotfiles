@@ -5,13 +5,19 @@ tap 'homebrew/bundle'
 
 brew 'caskroom/cask/brew-cask'
 
-brew 'tree'
-
 brew 'coreutils'
-#brew 'go'
+brew 'go'
 brew 'node'
 brew 'ruby-build'
 brew 'rbenv'
+brew 'tree'
+
+cask 'evernote'
+cask 'google-chrome'
+cask 'iterm2'
+cask 'java'
+cask slack
+
 
 
 #The following might be useful at some point
@@ -26,13 +32,9 @@ brew 'rbenv'
 #cask 'adium'
 #cask 'atom'
 #cask 'firefox'
-#cask 'garmin-express'
-cask 'google-chrome'
-cask 'iterm2'
 #cask 'handbrake'
 #cask 'mapbox-studio'
 #cask 'seashore'
-cask 'slack'
 #cask 'steam'
 #cask 'transmission'
 #cask 'tunnelbear'
