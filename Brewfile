@@ -1,6 +1,7 @@
 cask_args appdir: '/Applications'
 
 tap 'caskroom/cask'
+tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 brew 'caskroom/cask/brew-cask'
@@ -15,13 +16,14 @@ brew 'ruby-build'
 brew 'rbenv'
 brew 'tree'
 
+cask 'bbc-iplayer-downloads'
 cask 'evernote'
 cask 'google-chrome'
-cask 'bbc-iplayer-downloads'
 cask 'iterm2'
 cask 'java'
+cask 'ngrok'
 cask 'slack'
-
+cask 'sublime-text3'
 
 
 #The following might be useful at some point
@@ -33,7 +35,6 @@ cask 'slack'
 
 #cask '1password'
 #cask 'adium'
-#cask 'atom'
 #cask 'firefox'
 #cask 'handbrake'
 #cask 'mapbox-studio'
