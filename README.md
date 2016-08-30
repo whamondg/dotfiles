@@ -1,8 +1,7 @@
 # Dotfiles
 
-This is a fork of [Zach Holman's excellent dotfiles project](https://github.com/holman/dotfiles), which is a great approach to personalising your system in a very organised way.  I have stripped it back to the core elements that are useful to me, with the intention of building up from this base.
-
-It's well worth reading [Zach's original blog post](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
+This is a fork of [Zach Holman's excellent dotfiles project](https://github.com/holman/dotfiles).  It's well worth reading 
+[Zach's blog post](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
 
 ## Organisation
 
