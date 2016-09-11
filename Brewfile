@@ -22,6 +22,7 @@ cask 'google-chrome'
 cask 'iterm2'
 cask 'java'
 cask 'ngrok'
+cask 'pgadmin3'
 cask 'slack'
 cask 'sublime-text3'
 
