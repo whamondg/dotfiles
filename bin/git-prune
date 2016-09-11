@@ -1,0 +1,4 @@
+#/usr/bin/sh
+
+git branch | grep -v "master" | xargs git branch -D 
+

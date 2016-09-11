@@ -4,8 +4,7 @@ tap 'caskroom/cask'
 tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
-brew 'caskroom/cask/brew-cask'
-
+brew 'apib'
 brew 'coreutils'
 brew 'elixir'
 brew 'go'
@@ -16,6 +15,7 @@ brew 'ruby-build'
 brew 'rbenv'
 brew 'tree'
 
+cask 'apache-directory-studio'
 cask 'bbc-iplayer-downloads'
 cask 'evernote'
 cask 'google-chrome'
@@ -23,8 +23,9 @@ cask 'iterm2'
 cask 'java'
 cask 'ngrok'
 cask 'pgadmin3'
+cask 'skype'
 cask 'slack'
-cask 'sublime-text3'
+cask 'sublime-text'
 
 
 #The following might be useful at some point
