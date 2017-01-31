@@ -6,8 +6,7 @@
 
 INIT_FILE="$HOME/.sdkman/bin/sdkman-init.sh"
 
-if [ ! -s $INIT_FILE ];
-then
+if [ ! -s $INIT_FILE ]; then
   echo "  Installing sdkman"
   curl -s get.sdkman.io | bash
 else
@@ -24,6 +23,8 @@ if test ! $(which gradle); then
   sdk install gradle
 fi
 
-
+if test ! $(which springboot); then
+  sdk install springboot
+fi
 
 exit 0
