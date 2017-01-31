@@ -16,9 +16,14 @@ else
   sdk selfupdate
 fi
 
-if test ! $(which groovy)
-then
+if test ! $(which groovy); then
   sdk install groovy
 fi
+
+if test ! $(which gradle); then
+  sdk install gradle
+fi
+
+
 
 exit 0
