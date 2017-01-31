@@ -23,7 +23,7 @@ if test ! $(which gradle); then
   sdk install gradle
 fi
 
-if test ! $(which springboot); then
+if test ! $(which spring); then
   sdk install springboot
 fi
 
