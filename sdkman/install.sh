@@ -16,4 +16,9 @@ else
   sdk selfupdate
 fi
 
+if test ! $(which groovy)
+then
+  sdk install groovy
+fi
+
 exit 0
