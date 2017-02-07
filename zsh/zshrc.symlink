@@ -22,8 +22,14 @@ do
   source $file
 done
 
-# load everything but the path and completion files
-for file in ${${config_files:#*/path.zsh}:#*/completion.zsh}
+# load everything but the path, completion, and alias files
+for file in ${${${config_files:#*/path.zsh}:#*/completion.zsh}:#*/aliases.zsh}
+do
+  source $file
+done
+
+#load aliases after tooling has been set up by other scripts
+for file in ${(M)config_files:#*/aliases.zsh}
 do
   source $file
 done
@@ -39,5 +45,4 @@ do
 done
 
 unset config_files
-
 
