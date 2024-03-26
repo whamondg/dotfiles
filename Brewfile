@@ -1,7 +1,5 @@
 cask_args appdir: '/Applications'
 
-tap 'caskroom/cask'
-tap 'caskroom/versions'
 tap 'homebrew/bundle'
 
 brew 'ag'
@@ -25,7 +23,6 @@ brew 'yarn'
 
 cask 'blink1control'
 cask 'dropbox'
-cask 'evernote'
 cask 'google-chrome'
 cask 'iterm2'
 cask 'java'

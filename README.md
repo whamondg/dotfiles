@@ -1,7 +1,7 @@
 # Dotfiles
 
-This is a fork of [Zach Holman's excellent dotfiles project](https://github.com/holman/dotfiles).  It's well worth reading 
-[Zach's blog post](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/).
+This project started out life as a fork of [Zach Holman's dotfiles project](https://github.com/holman/dotfiles).  It's well worth reading 
+[Zach's blog post](http://zachholman.com/2010/08/dotfiles-are-meant-to-be-forked/) on the subject.
 
 ## Organisation
 
@@ -14,7 +14,7 @@ There's a few special files in the hierarchy.
 
 - **bin/**: Anything in `bin/` will get added to your `$PATH` and be made
   available everywhere.
-- **Brewfile**: This is a list of applications for [Homebrew Cask](http://caskroom.io) to install: things like Chrome and 1Password and Adium and stuff. Might want to edit this file before running any initial setup.
+- **Brewfile**: This is a list of applications for [Homebrew Cask](http://caskroom.io) to install: things like Chrome and stuff. Might want to edit this file before running any initial setup.
 - **topic/\*.zsh**: Any files ending in `.zsh` get loaded into your environment.
 - **topic/path.zsh**: Any file named `path.zsh` is loaded first and is expected to setup `$PATH` or similar.
 - **topic/completion.zsh**: Any file named `completion.zsh` is loaded last and is expected to setup autocomplete.
